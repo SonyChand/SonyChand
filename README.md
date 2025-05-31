@@ -3,7 +3,6 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin)](https://www.linkedin.com/in/lorddaud)
 [![Email](https://img.shields.io/badge/Email-sonychandmaulana@gmail.com-red)](mailto:sonychandmaulana@gmail.com)
 
-Halo! Saya **Sony Chandra Maulana**, seorang **Junior Full-Stack Web Developer** yang berfokus pada efisiensi, performa, dan user experience. Saya ahli dalam pengembangan aplikasi berbasis **PHP (Laravel, CodeIgniter)**, serta **Vue.js**, **Tailwind CSS**, dan berbagai framework modern. Dengan latar belakang kuat di **sistem informasi kesehatan, edukasi, dan pelayanan publik**, saya telah membangun berbagai solusi digital untuk instansi pemerintah dan lembaga masyarakat.
 ---
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white)
 ![Laravel](https://img.shields.io/badge/Laravel-F55247?style=flat&logo=laravel&logoColor=white)
