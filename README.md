@@ -78,4 +78,4 @@
 
 ---
 
-> _"Teknologi bukan hanya tentang kode. Ini tentang solusi, dampak, dan harapan." – Sony Chandra Maulana_
+> _"Teknologi téh lain ukur nyieun kode wungkul, tapi kumaha cara nyieun solusi nu ngabantuan rahayat, méré mangpaat, jeung ngahirupkeun harepan pikeun masa depan." – Sony Chandra Maulana_
