@@ -24,7 +24,6 @@ Halo! Saya **Sony Chandra Maulana**, seorang **Junior Full-Stack Web Developer**
 ![AdonisJS](https://img.shields.io/badge/AdonisJS-220052?style=flat&logo=adonisjs&logoColor=white)
 ![Astro](https://img.shields.io/badge/Astro-BC52EE?style=flat&logo=astro&logoColor=white)
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=white)
-![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat&logo=amazonaws&logoColor=white)
 
 ## 🏆 Prestasi dan Penghargaan
 
