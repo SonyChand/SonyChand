@@ -4,7 +4,26 @@
 [![Email](https://img.shields.io/badge/Email-sonychandmaulana@gmail.com-red)](mailto:sonychandmaulana@gmail.com)
 
 Halo! Saya **Sony Chandra Maulana**, seorang **Full-Stack Web Developer** yang berfokus pada efisiensi, performa, dan user experience. Saya ahli dalam pengembangan aplikasi berbasis **PHP (Laravel, CodeIgniter)**, serta **Vue.js**, **Tailwind CSS**, dan berbagai framework modern. Dengan latar belakang kuat di **sistem informasi kesehatan, edukasi, dan pelayanan publik**, saya telah membangun berbagai solusi digital untuk instansi pemerintah dan lembaga masyarakat.
-
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white)
+![Laravel](https://img.shields.io/badge/Laravel-F55247?style=flat&logo=laravel&logoColor=white)
+![CodeIgniter](https://img.shields.io/badge/CodeIgniter-E44D26?style=flat&logo=codeigniter&logoColor=white)
+![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=flat&logo=vue.js&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind-06B6D4?style=flat&logo=tailwindcss&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-7952B3?style=flat&logo=bootstrap&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=flat&logo=sqlite&logoColor=white)
+![HeidiSQL](https://img.shields.io/badge/HeidiSQL-F4DC26?style=flat&logo=sqlite&logoColor=black)
+![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
+![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
+![Google Colab](https://img.shields.io/badge/Google%20Colab-F9AB00?style=flat&logo=googlecolab&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=flat&logo=jupyter&logoColor=white)
+![Golang](https://img.shields.io/badge/Go-00ADD8?style=flat&logo=go&logoColor=white)
+![Express.js](https://img.shields.io/badge/Express.js-000000?style=flat&logo=express&logoColor=white)
+![AdonisJS](https://img.shields.io/badge/AdonisJS-220052?style=flat&logo=adonisjs&logoColor=white)
+![Astro](https://img.shields.io/badge/Astro-BC52EE?style=flat&logo=astro&logoColor=white)
+![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=white)
+![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat&logo=amazonaws&logoColor=white)
 ---
 
 ## 🏆 Prestasi dan Penghargaan
