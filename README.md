@@ -3,7 +3,8 @@
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-blue?logo=linkedin)](https://www.linkedin.com/in/lorddaud)
 [![Email](https://img.shields.io/badge/Email-sonychandmaulana@gmail.com-red)](mailto:sonychandmaulana@gmail.com)
 
-Halo! Saya **Sony Chandra Maulana**, seorang **Full-Stack Web Developer** yang berfokus pada efisiensi, performa, dan user experience. Saya ahli dalam pengembangan aplikasi berbasis **PHP (Laravel, CodeIgniter)**, serta **Vue.js**, **Tailwind CSS**, dan berbagai framework modern. Dengan latar belakang kuat di **sistem informasi kesehatan, edukasi, dan pelayanan publik**, saya telah membangun berbagai solusi digital untuk instansi pemerintah dan lembaga masyarakat.
+Halo! Saya **Sony Chandra Maulana**, seorang **Junior Full-Stack Web Developer** yang berfokus pada efisiensi, performa, dan user experience. Saya ahli dalam pengembangan aplikasi berbasis **PHP (Laravel, CodeIgniter)**, serta **Vue.js**, **Tailwind CSS**, dan berbagai framework modern. Dengan latar belakang kuat di **sistem informasi kesehatan, edukasi, dan pelayanan publik**, saya telah membangun berbagai solusi digital untuk instansi pemerintah dan lembaga masyarakat.
+---
 ![PHP](https://img.shields.io/badge/PHP-777BB4?style=flat&logo=php&logoColor=white)
 ![Laravel](https://img.shields.io/badge/Laravel-F55247?style=flat&logo=laravel&logoColor=white)
 ![CodeIgniter](https://img.shields.io/badge/CodeIgniter-E44D26?style=flat&logo=codeigniter&logoColor=white)
@@ -24,7 +25,6 @@ Halo! Saya **Sony Chandra Maulana**, seorang **Full-Stack Web Developer** yang b
 ![Astro](https://img.shields.io/badge/Astro-BC52EE?style=flat&logo=astro&logoColor=white)
 ![Flutter](https://img.shields.io/badge/Flutter-02569B?style=flat&logo=flutter&logoColor=white)
 ![AWS](https://img.shields.io/badge/AWS-FF9900?style=flat&logo=amazonaws&logoColor=white)
----
 
 ## 🏆 Prestasi dan Penghargaan
 
@@ -43,25 +43,6 @@ Halo! Saya **Sony Chandra Maulana**, seorang **Full-Stack Web Developer** yang b
 
 ---
 
-## 🛠️ Keahlian Teknis
-
-- **Back-End Development:** PHP (Laravel, CodeIgniter), Express JS, Hapi JS, Adonis JS, Golang
-- **Front-End Development:** Vue.js, Bootstrap, Tailwind CSS, React.js, Astro
-- **Mobile & Desktop:** Flutter
-- **AI/ML Tools:** Python, Jupyter Notebook, Google Colab, PHP-ML
-- **Database:** MySQL, PostgreSQL, SQLite, HeidiSQL
-- **Tools & Lainnya:** Git, Vite.js, Laravel Herd, Docker (dasar), RESTful API, Project Management
-- **Cloud & DevOps:** AWS Cloud Essentials, Architecting on AWS, Bedrock, Cost Management
-
----
-
-## 🎓 Pendidikan
-
-- **2021 – 2025** | S1 Teknik Informatika – STMIK Mardira Indonesia  
-- **2018 – 2021** | Teknik Komputer dan Jaringan – SMKN 1 Kawali
-
----
-
 ## 💼 Pengalaman Proyek Pilihan
 
 - 🩺 **SIDENTING** – Sistem Deteksi Dini Stunting (Dinkes Kab. Tasikmalaya)  
@@ -72,15 +53,6 @@ Halo! Saya **Sony Chandra Maulana**, seorang **Full-Stack Web Developer** yang b
 - 🏫 **SIAKAD** – Sistem Informasi Akademik Sekolah  
 - 💰 **Keuangan Pesantren** – Aplikasi Manajemen Keuangan Transparan  
 - ⚖️ **Konsultasi Hukum Online** – LegalTech Platform for Law Firm
-
----
-
-## 🧾 Sertifikasi & Pelatihan
-
-- 💻 **Dicoding** – >20 Sertifikasi: React, Web Dev, Machine Learning, Haskell, JavaScript, Java, C, SQL, AI, AWS, dan lainnya  
-- ☁️ **AWS Training** – Cloud Essentials, Bedrock, Cost Management, Prompt Engineering, ML Essentials  
-- 🎓 **Kemkominfo & BDT** – Seminar, Lokakarya, dan Challenge Nasional  
-- 🏛️ **STMIK Mardira Indonesia** – BEMSS International Conference 2024
 
 ---
 
