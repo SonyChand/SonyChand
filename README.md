@@ -11,7 +11,6 @@
 <br>
 
 ![Profile Views](https://komarev.com/ghpvc/?username=SonyChand&label=Profile%20Views&color=0e75b6&style=flat)
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=SonyChand&layout=compact&theme=vision-friendly-dark)](https://github.com/SonyChand)
 
 ---
 
