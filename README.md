@@ -1,93 +1,122 @@
 # 👨‍💻 Sony Chandra Maulana, S.Kom.
+### Lead Full-Stack Software Engineer & Systems Architect
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lorddaud)
-[![Email](https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:sonychandmaulana@gmail.com)
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-25D366?style=flat&logo=whatsapp&logoColor=white)](https://wa.me/6281312157307)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/SonyChand)
+<div align="center">
+  <a href="https://www.linkedin.com/in/lorddaud"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="mailto:sonychandmaulana@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://wa.me/6281312157307"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp" /></a>
+  <a href="https://github.com/SonyChand"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+</div>
+
+<br>
+
+![Profile Views](https://komarev.com/ghpvc/?username=SonyChand&label=Profile%20Views&color=0e75b6&style=flat)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=SonyChand&layout=compact&theme=vision-friendly-dark)](https://github.com/SonyChand)
 
 ---
 
-## 🧑‍💼 Tentang Saya
+## 🧑‍💼 Tentang Saya (About Me)
 
-Full-Stack Software Engineer & Systems Architect dengan jam terbang tinggi dalam mendesain, membangun, dan mengorkestrasi sistem produksi skala *Enterprise*, Pemerintahan, Edukasi, dan Militer. 
+Saya adalah seorang **Full-Stack Software Engineer & Systems Architect** dengan jam terbang ekstensif dalam mendesain, membangun, dan mengorkestrasi sistem produksi berskala *Enterprise*, institusi Pemerintahan, platform Edukasi, hingga infrastruktur Militer.
 
-Fokus keahlian saya berada pada arsitektur **Distributed Microservices (Go)**, **Ekosistem Monolitik Terpadu (Laravel/Livewire/Inertia)**, serta **Modern Frontend Interfaces (Vue/Nuxt/React)**. Saya terbiasa menangani siklus hidup pengembangan perangkat lunak hulu ke hilir: dari rekayasa sistem akuntansi kompleks, *payment gateway* terpusat, analitik data masif, hingga infrastruktur server berbasis *container* (Docker/Traefik).
+Dengan fokus utama pada rekayasa **Distributed Microservices (Go)**, **Massive Monolithic Ecosystems (Laravel 11/12, Livewire 3, Inertia)**, dan **Modern Frontend Interfaces (Vue 3, Nuxt, React)**, saya mengubah kompleksitas bisnis menjadi arsitektur perangkat lunak yang tangguh, *scalable*, dan aman. 
+
+Saya memiliki obsesi terhadap performa tinggi (baik *backend latency* maupun *frontend rendering*), *background processing* skala besar, dan desain antarmuka (UI/UX) yang *pixel-perfect*, dinamis, dan intuitif.
 
 > _"Teknologi téh lain ukur nyieun kode wungkul, tapi kumaha cara nyieun solusi nu ngabantuan rahayat, méré mangpaat, jeung ngahirupkeun harepan pikeun masa depan." – Sony Chandra Maulana_
 
 ---
 
-## 🛠️ Tech Stack Matrix
+## 🛠️ Tech Stack Matrix & Arsenal
 
-- **Backend & Microservices:** Go (Standard Library, Gin, Fiber), PHP (Laravel 11/12, CodeIgniter), Node.js, Python
-- **Frontend & SSR Ecosystem:** Vue.js (Vue 3, Nuxt.js, Vite), React, Inertia.js, Laravel Livewire, Astro, Tailwind CSS, Bootstrap
-- **Database & Data Structure:** PostgreSQL, MySQL/MariaDB, SQLite, Redis
-- **Architecture & Infrastructure:** Docker & Docker Compose, Traefik API Gateway, Nginx Reverse Proxy, Cloudflare, AWS Core Services, GCP, CI/CD Pipeline
-- **Integration & APIs:** Payment Gateways (Duitku, Midtrans), WhatsApp API, Email SMTP Pipelines, RESTful API Design
+| Domain | Technologies |
+| :--- | :--- |
+| **Backend & Microservices** | Go (Standard Library, Gin, Fiber), PHP (Laravel 11/12, CodeIgniter), Node.js, Python |
+| **Frontend & UI/UX** | Vue.js (Vue 3, Nuxt.js, Vite), React, Inertia.js, Laravel Livewire/Volt, Astro, Tailwind CSS, Bootstrap |
+| **Database & Caching** | PostgreSQL, MySQL/MariaDB, SQLite, Redis |
+| **DevOps, Infra & Architecture** | Docker, Docker Compose, Traefik API Gateway, Nginx Reverse Proxy, Cloudflare, CI/CD Pipeline |
+| **Cloud Services** | AWS Core Services, Google Cloud Platform (GCP) |
+| **Integrations & Third-Party** | Payment Gateways (Midtrans, Duitku), WhatsApp API, SMTP Pipelines, HLS Video Streaming |
 
 ---
 
 ## 💼 High-Level System Architecture & Ecosystems
 
-Sebagai Lead Developer, saya memimpin pengembangan berbagai *massive ecosystems* yang terdiri dari banyak aplikasi yang saling terhubung:
+Sebagai *Lead Developer* dan Arsitek Sistem, saya merancang dan memimpin pengembangan portofolio proyek raksasa (*massive ecosystems*) berikut:
 
 ### 🎓 1. University Admission & Management Ecosystem (Universitas BTH & UNPAS)
-Membangun ekosistem penerimaan mahasiswa baru dan portal informasi perguruan tinggi hulu ke hilir yang menangani ribuan transaksi dan pendaftar secara bersamaan.
-- **Pendaftaran & Seleksi Portal (`pendaftaran.universitas-bth.ac.id`):** Engine pendaftaran terintegrasi dengan sistem Computer Based Test (CBT) adaptif. Mendukung validasi dokumen, *Email OTP validation*, penjadwalan ujian otomatis, hingga manajemen kelulusan berbasis skor (IRT Scoring Modules).
-- **Omnichannel Payment & Installment Core:** Sistem penagihan yang menangani pembayaran via **Duitku Gateway** lengkap dengan *Asynchronous Installment Schema* (skema cicilan otomatis), webhook callback, pelacakan riwayat pembayaran, hingga pembuatan invoice/kuitansi digital.
-- **SSG Information Portal (`info.admisi.bth`):** Front-end terpisah berbasis **Nuxt.js/Vue** untuk performa SEO maksimal dan *load-time* instan, menampilkan informasi biaya kuliah, jalur pendaftaran, hingga prodi.
-- **Headless CMS Engine (`cms.pmb.universitas-bth.ac.id` / `cms-unpas`):** Backend pengelolaan konten terpusat (Fakultas, Agenda, Jurnal, Beasiswa) berbasis API yang mendistribusikan data ke seluruh *landing page* dan portal informasi kampus.
+*Ekosistem PMB dan portal institusi *end-to-end* yang menangani ribuan transaksi pendaftar dengan ketersediaan tinggi (High Availability).*
+*   **Core Systems:** `pendaftaran.universitas-bth.ac.id`, `cms.pmb.universitas-bth.ac.id`, `info.admisi.bth`.
+*   **Key Features:** Engine pendaftaran terintegrasi Computer Based Test (CBT) adaptif, validasi dokumen asinkron, manajemen kelulusan berbasis IRT Scoring.
+*   **Omnichannel Payment:** Sistem *billing* via **Duitku Gateway** dengan *Asynchronous Installment Schema* (cicilan otomatis), webhook callback, dan *auto-generate* e-Invoice.
+*   **Headless Architecture:** Pemisahan Front-end (Nuxt.js/Vue) untuk optimasi SEO dan *load-time* instan, didukung oleh Headless CMS Engine (API-driven) untuk distribusi data lintas platform.
 
 ### 🧠 2. Jatidiri Psychological Microservices Ecosystem (`jatidiri.app`)
-Infrastruktur asesmen psikologis tingkat lanjut untuk skala korporasi yang dipecah ke dalam berbagai layanan mikro (Microservices) yang independen.
-- **Distributed Microservices Mesh:** Pemisahan *concern* ke dalam puluhan modul independen: *Auth Service*, *Assessment Service*, *BK Service*, *Preparation Service*, *Komunitas Service*, hingga *Halopsy Service* (Telekonseling) yang di-routing melalui **Traefik API Gateway Core**.
-- **Massive Diagnostic Engines:** Mesin kalkulasi tes psikologi lengkap (CFIT, DISC, EPPS, FRT, IAA, IST, LBC, MAP, Pauli, PM, RMIB) yang diproses secara *real-time* dan konkruen menggunakan performa tinggi dari **Golang**.
-- **Automated Psychogram & AI Reporting:** Generator laporan komprehensif (Psikogram) yang terintegrasi dengan analitik dan AI (*Gemini Service*) untuk menghasilkan deskripsi karakter, bakat, karier, dan rekomendasi klinis dalam hitungan detik.
+*Infrastruktur asesmen psikologis tingkat korporasi dengan arsitektur Microservices yang fully-containerized.*
+*   **Distributed Microservices Mesh:** Orkesrasi 10+ layanan mandiri (*Auth, Assessment, BK, Preparation, Komunitas, Halopsy*) yang di-routing secara dinamis menggunakan **Traefik API Gateway**.
+*   **Massive Diagnostic Engines (Go):** Mesin *scoring* konkuren tingkat tinggi untuk kalkulasi 20+ instrumen psikologi (CFIT, DISC, EPPS, RMIB, dll.) secara *real-time*.
+*   **AI & Automated Psychogram:** Generator *PDF Report* komprehensif yang memadukan algoritma *scoring* dengan kecerdasan buatan (*Gemini Service*) untuk mendeskripsikan bakat, karier, dan profil klinis dalam hitungan detik.
 
-### 💰 3. Enterprise Finance & Accounting System (`keuangan`)
-Platform ERP *(Enterprise Resource Planning)* untuk manajemen finansial dan akuntansi tingkat lanjut.
-- **Automated General Ledger (Jurnal Umum):** Pencatatan otomatis untuk setiap transaksi (KasBank, Mutasi Rekening, Pembayaran Dimuka, Penjualan, Pembelian, Produksi) lengkap dengan *chart of accounts* (CoA) yang dapat dikustomisasi.
-- **Asset Depreciation & HPP Engine:** Kalkulator otomatis untuk Harga Pokok Penjualan (HPP) produksi dan penyusutan aset tetap *(Asset Depreciation)* secara periodik.
-- **Financial Reporting Suite:** Pembuatan laporan Neraca, Laba/Rugi, Arus Kas, dan Perubahan Ekuitas yang digenerate dalam format tabel dan PDF presisi tinggi.
+### 🪖 3. MABES Military Payroll & HRIS (SIMPAKU / SISFOKUAD)
+*Platform intranet berkeamanan tinggi untuk manajemen kompensasi finansial dan birokrasi personel institusi militer (TNI AD).*
+*   **Tech Stack:** Laravel 12, Livewire 3, Tailwind CSS, Queue Workers.
+*   **Heavy Background Processing:** Pemrosesan kalkulasi Tunjangan Kinerja (Tukin) dan Gaji massal berbasis antrean (Jobs/Queues) untuk ribuan personel tanpa risiko *server timeout*.
+*   **Automated Payroll Pipelines:** *Generator* PDF Dokumen KU-1 dan Buku Besar Belanja otomatis, serta sistem distribusi Slip Gaji personal langsung via *Email* dan *WhatsApp Broadcast*.
 
-### 📝 4. EdTech & Advanced CBT Platform (`cbtqu`)
-Sistem Computer-Based Test (CBT) dan Learning Management System dengan fitur analitik cerdas.
-- **Student Analytics & Item Analysis:** Modul analitik dalam Laravel Livewire/Volt yang membedah pola pengerjaan siswa dan menganalisis tingkat kesulitan butir soal secara statistik.
-- **AI-Powered Testimonial Generator:** Arsitektur generator testimoni berbasis *Blueprints* dan *Persona Factory* untuk merangkum sentimen pengguna secara otomatis.
-- **Scalable Exam Sessions:** Infrastruktur pengerjaan ujian serentak (Tryout Nasional, USM Ukrida, Persiapan PTN) dengan sistem *auto-save* jawaban dan manajemen transaksi via **Midtrans**.
+### 📝 4. EdTech & Advanced CBT Platform (`CBTQu`)
+*Learning Management System (LMS) modern dan platform Computer-Based Test berskala nasional.*
+*   **Advanced Analytics:** Modul *Item Analysis* real-time berbasis Laravel Livewire/Volt untuk membedah tingkat kesulitan soal secara statistik berdasarkan respons ribuan peserta.
+*   **AI-Powered Persona Generator:** Arsitektur generator testimoni berbasis *Blueprints* dan *Student Persona Factory* untuk analisis sentimen dan evaluasi pembelajaran otomatis.
+*   **Scalable Exam Sessions:** Sistem eksekusi ujian anti-lag dengan fitur *auto-save state*, timer asinkron, dan integrasi transaksi paket ujian via **Midtrans**.
 
-### 🗳️ 5. Smartpol — Election & Campaign Management System
-Sistem intelijen politik dan pemantauan kampanye relawan hulu ke hilir.
-- **Real-time Vote & Fraud Tracking:** Modul pemantauan perolehan suara dan pelaporan pelanggaran secara *real-time* dari saksi di tingkat TPS (Village/District level).
-- **Hierarchical Campaign Network:** Manajemen anggota tim sukses bertingkat (Saksi, Timses, Dewan) dengan analitik geografis interaktif (*Larapex Charts*) berdasarkan agregasi wilayah.
+### 💰 5. Enterprise Finance & Accounting System
+*Platform ERP (Enterprise Resource Planning) kustom untuk manajemen finansial dan akuntansi perusahaan.*
+*   **Automated General Ledger:** Jurnal umum otomatis untuk seluruh siklus transaksi (Kas/Bank, Produksi, Pembelian, Penjualan) dengan *Chart of Accounts* (CoA) dinamis.
+*   **Asset & Production Engine:** Kalkulasi HPP (Harga Pokok Penjualan) dan algoritma *Asset Depreciation* (Penyusutan Aset) berkala.
+*   **Financial Reporting Suite:** Ekstraksi data *real-time* untuk Neraca, Laba/Rugi, Arus Kas, dan Ekuitas dalam format *spreadsheet* dan PDF resolusi tinggi.
 
-### 🪖 6. MABES Military Payroll & HRIS (`mabes_tukin_gaji`)
-Platform manajemen kompensasi finansial dan administrasi personel institusi strategis.
-- **Heavy Data Import/Export Engine:** Pemrosesan kalkulasi Tunjangan Kinerja (Tukin) dan Gaji massal berbasis antrean (Jobs/Queues) untuk mencegah *server timeout*.
-- **Automated Payroll Pipelines:** Pembuatan PDF SPM, verifikasi dokumen KU-1, hingga pengiriman Slip Gaji (*Payslip*) personal via Email dan WhatsApp otomatis.
+### 🗳️ 6. Smartpol — Election & Campaign Management System
+*Sistem intelijen politik dan pusat komando (Command Center) pemantauan relawan/kampanye.*
+*   **Real-time Vote Tracking:** Tabulasi perolehan suara paralel dan deteksi kecurangan (Fraud Tracking) berbasis *crowdsourcing* saksi di tingkat TPS.
+*   **Hierarchical RBAC & Geospatial Analytics:** Manajemen keanggotaan berlapis (Saksi, Timses, Koordinator) dengan dasbor analitik geografis interaktif (*Larapex Charts*) untuk pemetaan teritori kemenangan.
 
-### 🌐 7. Corporate Portals & Headless Architecture (`hexagon.co.id`)
-Pengembangan profil korporat dan manajemen konten berbasis **Inertia.js & Vue**.
-- **Decentralized CMS:** Sistem pengelolaan layanan, portofolio, harga, dan manajemen karir yang diakses secara fleksibel menggunakan integrasi Scribe API Documentation.
-
----
-
-## 🏆 Penghargaan & Prestasi Nasional
-
-- 🥇 **Juara 1 Pemuda Pelopor Kabupaten Ciamis (2024)** — Kategori Inovasi Teknologi (Sistem Deteksi Dini Stunting / SIDENTING).
-- 🏅 **Top 6 Nasional Baparekraf Digital Talent Challenge (2024)** — Inovasi Transformasi Pelayanan Publik.
+### 🌐 7. Corporate Portals & CMS (`hexagon.co.id`)
+*Pengembangan web korporat berbasis modern stack.*
+*   **Decentralized Content Management:** Ekosistem portal berbasis **Inertia.js & Vue 3** untuk manajemen layanan, harga, portofolio, dan karir dengan dokumentasi API terstruktur (Scribe API).
 
 ---
 
-## 📜 Sertifikasi & Kompetensi
+## 🏆 Penghargaan & Prestasi (Awards)
 
-- ☁️ **Amazon Web Services (AWS):** Cloud Practitioner Essentials, Technical Architecting, Foundations of Prompt Engineering, Machine Learning Terminology.
-- 💻 **Software Engineering (Dicoding):** Architectural Principles of SOLID Programming, Advanced Web Application with React, Professional Foundation of Python.
+- 🥇 **Juara 1 Pemuda Pelopor Kabupaten Ciamis (2024)** — Bidang Inovasi Teknologi (*Sistem Deteksi Dini Stunting / SIDENTING*).
+- 🏅 **Top 6 Nasional Baparekraf Digital Talent Challenge (2024)** — Kategori Inovasi Transformasi Pelayanan Publik.
 
 ---
 
-## 🤝 Mari Berkolaborasi!
+## 📜 Sertifikasi & Lisensi (Certifications)
 
-Saya terbuka untuk peluang kolaborasi teknis, arsitektur sistem skala besar, migrasi *cloud*, pengembangan *enterprise web app*, atau konsultasi infrastruktur digital.
+*   ☁️ **Amazon Web Services (AWS):** 
+    *   AWS Cloud Practitioner Essentials
+    *   Technical Architecting on AWS
+    *   Foundations of Prompt Engineering
+    *   Machine Learning Terminology and Process
+*   💻 **Dicoding Indonesia:** 
+    *   Architectural Principles of SOLID Programming
+    *   Advanced Web Application with React
+    *   Professional Foundation of Python
 
-📧 **sonychandmaulana@gmail.com** | 📱 **[+62 813-1215-7307](https://wa.me/6281312157307)** | 🔗 **[LinkedIn Profile](https://www.linkedin.com/in/lorddaud)**
+---
+
+## 🤝 Mari Berkolaborasi! (Let's Connect)
+
+Saya selalu terbuka untuk diskusi mengenai rekayasa arsitektur sistem skala besar, migrasi *cloud/microservices*, optimasi infrastruktur *backend*, atau sekadar ngopi sambil ngobrolin teknologi. 
+
+*   📧 **Email:** [sonychandmaulana@gmail.com](mailto:sonychandmaulana@gmail.com)
+*   📱 **WhatsApp / Telegram:** [+62 813-1215-7307](https://wa.me/6281312157307)
+*   🔗 **LinkedIn:** [Sony Chandra Maulana, S.Kom.](https://www.linkedin.com/in/lorddaud)
+
+<br>
+
+<div align="center">
+  <i><b>"Building the backend of tomorrow, optimizing the frontend of today."</b></i>
+</div>
