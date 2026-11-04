@@ -1,121 +1,246 @@
-# 👨‍💻 Sony Chandra Maulana, S.Kom.
-### Lead Full-Stack Software Engineer & Systems Architect
-
 <div align="center">
-  <a href="https://www.linkedin.com/in/lorddaud"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="mailto:sonychandmaulana@gmail.com"><img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
-  <a href="https://wa.me/6281312157307"><img src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="WhatsApp" /></a>
-  <a href="https://github.com/SonyChand"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+
+# Sony Chandra Maulana, S.Kom.
+
+### Backend Developer · Software Engineer
+
+**Building practical software for real-world workflows.**
+
+Saya mengembangkan aplikasi web, API, dan sistem backend yang membantu tim bekerja lebih rapi, cepat, dan terukur.
+
+[![GitHub](https://img.shields.io/badge/GitHub-SonyChand-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/SonyChand)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lorddaud)
+[![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:sonychandmaulana@gmail.com)
+
 </div>
 
-<br>
+---
 
-![Profile Views](https://komarev.com/ghpvc/?username=SonyChand&label=Profile%20Views&color=0e75b6&style=flat)
+## Tentang saya
+
+Halo! Saya Sony, seorang **Backend Developer di PT Hexagon Karyatama Indonesia**. Sehari-hari saya banyak berkutat dengan API, database, business logic, integrasi antarsistem, dan memastikan aplikasi bisa berjalan dengan baik di lingkungan yang benar-benar digunakan orang.
+
+Saya juga terbiasa bekerja secara **full-stack** ketika proyek membutuhkannya: mulai dari merancang alur pengguna, membuat antarmuka, menghubungkannya ke backend, sampai deployment dan QA.
+
+Perjalanan saya melibatkan pengembangan produk untuk perusahaan, institusi pendidikan, layanan profesional, serta **proyek transformasi digital di sektor publik dan pemerintahan**. Dalam pekerjaan yang melibatkan banyak pihak, saya berkontribusi **sebagai salah satu developer di dalam tim**. Saya percaya hasil yang baik datang dari kerja sama, komunikasi, dan perhatian pada detail—bukan dari klaim bahwa satu orang mengerjakan semuanya.
+
+Hal yang paling saya nikmati adalah mengurai kebutuhan yang awalnya rumit menjadi sistem yang masuk akal: alurnya jelas, datanya konsisten, aksesnya terkontrol, dan mudah dikembangkan setelah rilis.
+
+- **Fokus utama:** backend engineering, REST API, database design, business workflow, authentication & authorization.
+- **Juga mengerjakan:** frontend, integrasi pihak ketiga, background jobs, dokumentasi, testing, dan deployment.
+- **Saat ini banyak menggunakan:** Go, PHP/Laravel, Vue 3, TypeScript, PostgreSQL/MySQL, Redis, dan Docker.
+- **Di luar pengembangan produk:** berbagi pengetahuan dan mendampingi praktik pengembangan aplikasi bagi siswa PKL/SMK.
+
+## Selected projects
+
+Berikut beberapa aplikasi dan kelompok solusi yang pernah atau sedang saya kerjakan. **Daftar fitur menggambarkan cakupan pengembangan yang relevan, bukan janji bahwa seluruh modul tersedia di setiap instalasi atau sudah dirilis ke publik.** Sebagian source code merupakan milik organisasi/klien sehingga tidak tersedia sebagai repository publik.
+
+### 01 — SIMKARYA | Human Capital Management System
+
+Sistem HRIS/HCM untuk membantu perusahaan mengelola siklus kerja karyawan secara terintegrasi, dari administrasi SDM sampai proses evaluasi dan penggajian.
+
+**Fitur dan modul:**
+- **Core HR & organisasi:** data karyawan, jabatan, departemen, struktur pelaporan, dan pengaturan akses.
+- **Presensi & cuti:** shift kerja, clock-in/out, pengajuan izin/cuti, koreksi kehadiran, dan proses persetujuan.
+- **Payroll:** komponen kompensasi, periode penggajian, alur persetujuan berjenjang, dan slip gaji PDF.
+- **Rekrutmen:** lowongan, kandidat, tahapan seleksi, dan penjadwalan wawancara.
+- **Performance management:** KPI, penilaian kinerja, PIP, rencana pengembangan individu, dan 360° feedback.
+- **Learning & Development:** katalog pelatihan, pendaftaran, evaluasi, dan pengelolaan sertifikat.
+- **Dokumen & layanan mandiri:** pengelolaan dokumen berversi, template PDF, akses dokumen, serta permintaan keuangan karyawan.
+- **Notifikasi & administrasi:** notifikasi berbasis peristiwa, role/permission management, konfigurasi perusahaan, dan integrasi layanan.
+
+**Tech stack:** Go · Gin · GORM · Vue 3 · TypeScript · Vite · Tailwind CSS · MySQL/MariaDB · Redis · Docker · Nginx
+
+**Kontribusi:** pengembangan backend, business logic, API, integrasi modul, penguatan akses dan keamanan, serta pengujian alur aplikasi bersama tim.
+
+### 02 — EduMutu | School & Foundation Management Platform
+
+Platform terintegrasi untuk operasional sekolah dan yayasan, dengan pendekatan multi-tenant dan akses berdasarkan organisasi, sekolah, serta peran pengguna. Proyek ini sebelumnya menggunakan identitas **Heksara** dan sedang melalui penyesuaian branding.
+
+**Fitur dan modul:**
+- **Manajemen yayasan & sekolah:** tenant, satuan pendidikan, pengguna, role, permission, dan audit aktivitas.
+- **Akademik:** tahun ajaran, kelas, jadwal, kurikulum, guru, siswa, serta data orang tua/wali.
+- **PPDB:** periode penerimaan, pendaftaran, dokumen, seleksi, dan proses menjadi siswa aktif.
+- **Pembelajaran:** materi, tugas, pengumpulan, ujian, penilaian, rapor, dan presensi.
+- **Keuangan & SDM:** tagihan sekolah, pembayaran, akuntansi, data pegawai, dan penggajian.
+- **Layanan sekolah:** perpustakaan, inventaris, konseling, UKS, layanan SMK/PKL, serta fasilitas sekolah.
+- **Komunikasi & portal wali:** pengumuman, pesan, notifikasi, dan akses informasi anak sesuai hak pengguna.
+- **Operasional platform:** pengelolaan paket/modul, pelaporan, analitik, serta integrasi layanan tambahan.
+
+**Tech stack:** Go · Gin · Vue 3 · TypeScript · Vite · Pinia · PostgreSQL · Redis · NATS JetStream · Docker · Nginx
+
+**Kontribusi:** pengembangan layanan backend dan frontend, alur akses lintas peran, integrasi antarmodul, dan kesiapan deployment.
+
+### 03 — Jatidiri | Psychological Assessment Platform
+
+Ekosistem layanan asesmen psikologis dengan pemisahan beberapa domain layanan agar proses autentikasi, persiapan asesmen, pengerjaan tes, dan penyusunan hasil dapat dikelola lebih terstruktur.
+
+**Fitur dan modul:**
+- **Account & authentication:** pengelolaan akses dan sesi pengguna.
+- **Assessment services:** pengelolaan instrumen, bank soal, sesi asesmen, dan pemrosesan jawaban.
+- **Scoring & reporting:** pengolahan hasil tes dan penyusunan laporan/psikogram.
+- **Supporting services:** layanan persiapan, bimbingan konseling, pemeriksaan, komunitas, dan konsultasi.
+- **API routing:** pemisahan layanan melalui gateway untuk kebutuhan integrasi.
+- **Infrastructure:** caching, pengelolaan koneksi database, observability, dan containerized deployment.
+
+**Tech stack:** Go · Gin · PostgreSQL · GORM · Redis · PgBouncer · Traefik · Docker Compose · OpenTelemetry
+
+**Kontribusi:** pengembangan dan integrasi backend service, pemrosesan data asesmen, serta penataan infrastruktur layanan.
+
+### 04 — CBTQu | Learning & Computer-Based Testing
+
+Platform pembelajaran dan ujian daring yang menyatukan materi belajar, pengelolaan paket, pelaksanaan tes, serta analisis hasil belajar.
+
+**Fitur dan modul:**
+- **Learning content:** katalog paket, modul, materi, dan ruang belajar peserta.
+- **Question bank:** kategori soal, impor soal, penyusunan ujian, dan pengelolaan komposisi tes.
+- **CBT sessions:** instruksi ujian, pelaksanaan tes dengan timer, penyimpanan jawaban, dan riwayat pengerjaan.
+- **Results & analytics:** hasil ujian, laporan PDF, analisis butir soal, dan statistik peserta.
+- **Transactions:** katalog paket berbayar, checkout, riwayat transaksi, dan invoice.
+- **Administration:** pengelolaan pengguna, konten, artikel, pengaturan, dan hak akses.
+
+**Tech stack:** PHP · Laravel 12 · Livewire 3 · Volt · Tailwind CSS · Vite · Laravel Sanctum · Midtrans
+
+**Kontribusi:** pengembangan alur ujian dan pembelajaran, modul administrasi, pelaporan, dan integrasi pembayaran.
+
+### 05 — University Admission System | PMB Universitas BTH
+
+Aplikasi penerimaan mahasiswa baru untuk membantu kampus mengelola pendaftaran, seleksi, administrasi berkas, dan pembayaran dalam satu alur.
+
+**Fitur dan modul:**
+- **Pendaftaran:** akun pendaftar, verifikasi email, pengisian biodata, dan riwayat pendidikan.
+- **Jalur & program studi:** pengaturan pilihan program dan persyaratan pendaftaran.
+- **Seleksi:** pengelolaan ujian/CBT, hasil seleksi, serta proses penerimaan.
+- **Administrasi dokumen:** unggah dan pemeriksaan berkas pendaftar.
+- **Keuangan PMB:** biaya pendaftaran, metode pembayaran, cicilan, dan pencatatan transaksi.
+- **Back office:** pengelolaan data calon mahasiswa, dashboard, dan laporan.
+
+**Tech stack:** PHP · Laravel 11 · Blade · Tailwind CSS · Vite · MySQL · Laravel Fortify · Dompdf · PhpSpreadsheet
+
+**Kontribusi:** pengembangan fitur PMB, backend, alur seleksi, transaksi, dan administrasi data.
+
+### 06 — STIKES Budi Luhur Cimahi | Admission & Enrollment System
+
+Sistem penerimaan mahasiswa baru dengan kebutuhan administrasi yang lebih spesifik, termasuk dukungan jalur pendaftaran dan alur pascapenerimaan.
+
+**Fitur dan modul:**
+- **Pendaftaran online:** biodata, pendidikan, keluarga, pilihan program, dan unggah persyaratan.
+- **Seleksi masuk:** pengaturan ujian berbasis komputer sesuai jalur/program studi serta hasil seleksi.
+- **Pembayaran:** metode pembayaran, skema cicilan, dan pencatatan pembayaran pendaftar.
+- **Referral sekolah:** pengelolaan rujukan dari guru BK/sekolah.
+- **Administrasi akademik awal:** pengelolaan data mahasiswa dan penomoran NIM.
+- **Akses pengelola:** area administrasi dan pengelolaan data per program studi.
+- **Pelaporan:** rekap pendaftaran, pembayaran, dan progres penerimaan.
+
+**Tech stack:** PHP · Laravel 11 · Blade · Tailwind CSS · Vite · MySQL/MariaDB · Dompdf · PhpSpreadsheet
+
+**Kontribusi:** pengembangan dan penyempurnaan proses PMB, QA, integrasi modul, serta persiapan deployment.
+
+### 07 — Finance & Bookkeeping System
+
+Aplikasi pengelolaan keuangan operasional yang berfokus pada pencatatan pemasukan dan pengeluaran serta penyediaan laporan untuk pengelola.
+
+**Fitur dan modul:**
+- **Pemasukan:** pencatatan sumber dana, nominal, tanggal, dan keterangan.
+- **Pengeluaran:** pengelompokan biaya operasional, personalia, pemeliharaan, dan kategori lain.
+- **Pembukuan:** pengorganisasian transaksi keuangan untuk kebutuhan administrasi.
+- **Pelaporan:** rekap dan penyajian data pemasukan/pengeluaran.
+- **Manajemen pengguna:** akses administrasi dan dashboard pengelola.
+
+**Tech stack:** PHP · CodeIgniter · MySQL · JavaScript
+
+**Kontribusi:** pengembangan modul transaksi, formulir, pengolahan data, dan tampilan laporan.
+
+### 08 — SIDENTING | Early Stunting Detection & Growth Prediction
+
+Proyek penelitian dan pengembangan aplikasi untuk membantu pemantauan pertumbuhan anak melalui pengolahan data antropometri dan prediksi tren pertumbuhan. Proyek ini merupakan bagian dari perjalanan akademik dan inovasi teknologi saya.
+
+**Fitur dan modul:**
+- **Data anak & pengukuran:** pencatatan profil dan riwayat pertumbuhan.
+- **Indikator pertumbuhan:** pengolahan pengukuran berat/tinggi sesuai kelompok umur.
+- **Deteksi dini:** perhitungan indikator antropometri untuk membantu identifikasi risiko pertumbuhan.
+- **Growth prediction:** pendekatan regresi Least Squares untuk memproyeksikan perkembangan berdasarkan data yang tersedia.
+- **Dashboard & laporan:** ringkasan data, visualisasi perkembangan, dan laporan hasil pengukuran.
+- **Role-based workflow:** pemisahan akses sesuai kebutuhan pencatatan dan pemantauan.
+
+**Tech stack:** PHP · Laravel 11 · MySQL · PHP-ML · Laravel Sanctum · Spatie Permission · Charting · PDF/Excel Export
+
+**Kontribusi:** perancangan dan pengembangan sistem penelitian, pengolahan data, serta implementasi metode prediksi. **Hasil sistem merupakan alat bantu, bukan pengganti penilaian tenaga kesehatan.**
+
+### 09 — Multi-Step Invoice Generator | Fleetify Technical Test
+
+Proyek technical assessment yang berfokus pada pembuatan invoice berbasis formulir bertahap, dengan validasi perhitungan di server dan pemisahan frontend/backend.
+
+**Fitur dan modul:**
+- **Multi-step form:** pengisian invoice dengan pengelolaan state antar-langkah.
+- **Master item:** pilihan item dan data referensi dari backend.
+- **Server-side validation:** harga dan total dihitung ulang di backend.
+- **Transactional writes:** penyimpanan data dalam transaksi database.
+- **Print-ready invoice:** tampilan khusus untuk mencetak invoice.
+- **Async webhook:** contoh pemrosesan webhook asinkron.
+- **Containerized setup:** frontend, backend, dan database dijalankan melalui Docker Compose.
+
+**Tech stack:** Next.js 14 · React · TypeScript · Go · Fiber · PostgreSQL · GORM · Zustand · TanStack Query · Docker
+
+**Source code:** [SonyChand/fleetify-technical-test](https://github.com/SonyChand/fleetify-technical-test)
 
 ---
 
-## 🧑‍💼 Tentang Saya (About Me)
+## Pengalaman pengembangan sistem untuk institusi
 
-Saya adalah seorang **Full-Stack Software Engineer & Systems Architect** dengan jam terbang ekstensif dalam mendesain, membangun, dan mengorkestrasi sistem produksi berskala *Enterprise*, institusi Pemerintahan, platform Edukasi, hingga infrastruktur Militer.
+Selain produk-produk di atas, saya juga pernah terlibat **sebagai salah satu anggota tim developer** dalam pekerjaan pengembangan dan penyempurnaan sistem untuk organisasi serta lingkungan **sektor publik/pemerintahan**.
 
-Dengan fokus utama pada rekayasa **Distributed Microservices (Go)**, **Massive Monolithic Ecosystems (Laravel 11/12, Livewire 3, Inertia)**, dan **Modern Frontend Interfaces (Vue 3, Nuxt, React)**, saya mengubah kompleksitas bisnis menjadi arsitektur perangkat lunak yang tangguh, *scalable*, dan aman. 
+Ruang kontribusi teknisnya antara lain:
+- Perancangan dan pengembangan **REST API, data model, dan business process**.
+- Implementasi **role-based access control**, autentikasi, validasi, dan jejak audit.
+- Integrasi proses administrasi, pengelolaan dokumen, impor data, dan pelaporan.
+- Pemeriksaan kualitas data, investigasi bug, serta pengujian fungsional lintas peran.
+- Penataan deployment, container, monitoring dasar, dan pemeliharaan aplikasi bersama tim.
 
-Saya memiliki obsesi terhadap performa tinggi (baik *backend latency* maupun *frontend rendering*), *background processing* skala besar, dan desain antarmuka (UI/UX) yang *pixel-perfect*, dinamis, dan intuitif.
+**Nama aplikasi, instansi, detail arsitektur internal, serta informasi operasional proyek tertentu sengaja tidak dicantumkan pada profil publik ini.** Deskripsi di sini membahas bidang kontribusi, bukan rincian proyek yang bersifat terbatas.
 
-> _"Teknologi téh lain ukur nyieun kode wungkul, tapi kumaha cara nyieun solusi nu ngabantuan rahayat, méré mangpaat, jeung ngahirupkeun harepan pikeun masa depan." – Sony Chandra Maulana_
+## Technology & tools
 
----
+| Area | Technologies |
+| --- | --- |
+| **Backend** | Go, PHP, Laravel, Gin, Fiber, CodeIgniter, REST API, GORM |
+| **Frontend** | Vue 3, TypeScript, JavaScript, React, Next.js, Livewire, Blade, Tailwind CSS, Vite |
+| **Data** | PostgreSQL, MySQL, MariaDB, Redis, SQL, data migration |
+| **Infrastructure** | Docker, Docker Compose, Nginx, Traefik, Linux, Git, GitHub Actions |
+| **Architecture** | Modular monolith, microservices, RBAC, API integration, background processing, event-driven workflows |
+| **Integrations & reporting** | Payment gateways, email/SMTP, webhooks, PDF/Excel generation, Google Workspace integrations |
+| **Quality & delivery** | API testing, functional QA, debugging, logging, documentation, CI/CD workflows |
 
-## 🛠️ Tech Stack Matrix & Arsenal
+Saya tidak terpaku pada satu framework. Pemilihan teknologi mengikuti kebutuhan sistem, kapasitas tim, biaya operasional, dan kemudahan pemeliharaan jangka panjang.
 
-| Domain | Technologies |
-| :--- | :--- |
-| **Backend & Microservices** | Go (Standard Library, Gin, Fiber), PHP (Laravel 11/12, CodeIgniter), Node.js, Python |
-| **Frontend & UI/UX** | Vue.js (Vue 3, Nuxt.js, Vite), React, Inertia.js, Laravel Livewire/Volt, Astro, Tailwind CSS, Bootstrap |
-| **Database & Caching** | PostgreSQL, MySQL/MariaDB, SQLite, Redis |
-| **DevOps, Infra & Architecture** | Docker, Docker Compose, Traefik API Gateway, Nginx Reverse Proxy, Cloudflare, CI/CD Pipeline |
-| **Cloud Services** | AWS Core Services, Google Cloud Platform (GCP) |
-| **Integrations & Third-Party** | Payment Gateways (Midtrans, Duitku), WhatsApp API, SMTP Pipelines, HLS Video Streaming |
+## How I approach software development
 
----
+1. **Understand the workflow.** Memastikan masalah dan kebutuhan pengguna dipahami sebelum menentukan struktur aplikasi.
+2. **Model the data carefully.** Menentukan relasi, validasi, batas akses, dan perubahan data sejak awal.
+3. **Keep business logic explicit.** Membuat alur proses jelas agar mudah diuji, diperiksa, dan diperbaiki.
+4. **Think beyond local development.** Memperhatikan konfigurasi, keamanan, logging, migrasi, deployment, dan rollback.
+5. **Test real user flows.** Tidak menganggap build berhasil sama dengan fitur sudah siap dipakai.
+6. **Document decisions.** Menyimpan konteks keputusan teknis agar pengembangan bisa diteruskan oleh tim.
 
-## 💼 High-Level System Architecture & Ecosystems
+## Education, achievements & mentoring
 
-Sebagai *Lead Developer* dan Arsitek Sistem, saya merancang dan memimpin pengembangan portofolio proyek raksasa (*massive ecosystems*) berikut:
+- **S.Kom. — Teknik Informatika, STMIK Mardira Indonesia** (2025).
+- **Juara 1 Pemuda Pelopor Kabupaten Ciamis, Bidang Inovasi Teknologi (2024)** melalui pengembangan SIDENTING.
+- **Top 6 Nasional Baparekraf Digital Talent Challenge (2024)** — kategori inovasi transformasi pelayanan publik.
+- Terlibat dalam **bimbingan teknis dan pendampingan pengembangan aplikasi** bagi siswa PKL/SMK, termasuk materi Laravel dan dasar pengembangan backend.
 
-### 🎓 1. University Admission & Management Ecosystem (Universitas BTH & UNPAS)
-*Ekosistem PMB dan portal institusi *end-to-end* yang menangani ribuan transaksi pendaftar dengan ketersediaan tinggi (High Availability).*
-*   **Core Systems:** `pendaftaran.universitas-bth.ac.id`, `cms.pmb.universitas-bth.ac.id`, `info.admisi.bth`.
-*   **Key Features:** Engine pendaftaran terintegrasi Computer Based Test (CBT) adaptif, validasi dokumen asinkron, manajemen kelulusan berbasis IRT Scoring.
-*   **Omnichannel Payment:** Sistem *billing* via **Duitku Gateway** dengan *Asynchronous Installment Schema* (cicilan otomatis), webhook callback, dan *auto-generate* e-Invoice.
-*   **Headless Architecture:** Pemisahan Front-end (Nuxt.js/Vue) untuk optimasi SEO dan *load-time* instan, didukung oleh Headless CMS Engine (API-driven) untuk distribusi data lintas platform.
+## Let's connect
 
-### 🧠 2. Jatidiri Psychological Microservices Ecosystem (`jatidiri.app`)
-*Infrastruktur asesmen psikologis tingkat korporasi dengan arsitektur Microservices yang fully-containerized.*
-*   **Distributed Microservices Mesh:** Orkesrasi 10+ layanan mandiri (*Auth, Assessment, BK, Preparation, Komunitas, Halopsy*) yang di-routing secara dinamis menggunakan **Traefik API Gateway**.
-*   **Massive Diagnostic Engines (Go):** Mesin *scoring* konkuren tingkat tinggi untuk kalkulasi 20+ instrumen psikologi (CFIT, DISC, EPPS, RMIB, dll.) secara *real-time*.
-*   **AI & Automated Psychogram:** Generator *PDF Report* komprehensif yang memadukan algoritma *scoring* dengan kecerdasan buatan (*Gemini Service*) untuk mendeskripsikan bakat, karier, dan profil klinis dalam hitungan detik.
+Saya terbuka untuk diskusi tentang backend development, arsitektur aplikasi, kolaborasi teknis, atau berbagi pengalaman membangun produk digital.
 
-### 🪖 3. MABES Military Payroll & HRIS (SIMPAKU / SISFOKUAD)
-*Platform intranet berkeamanan tinggi untuk manajemen kompensasi finansial dan birokrasi personel institusi militer (TNI AD).*
-*   **Tech Stack:** Laravel 12, Livewire 3, Tailwind CSS, Queue Workers.
-*   **Heavy Background Processing:** Pemrosesan kalkulasi Tunjangan Kinerja (Tukin) dan Gaji massal berbasis antrean (Jobs/Queues) untuk ribuan personel tanpa risiko *server timeout*.
-*   **Automated Payroll Pipelines:** *Generator* PDF Dokumen KU-1 dan Buku Besar Belanja otomatis, serta sistem distribusi Slip Gaji personal langsung via *Email* dan *WhatsApp Broadcast*.
-
-### 📝 4. EdTech & Advanced CBT Platform (`CBTQu`)
-*Learning Management System (LMS) modern dan platform Computer-Based Test berskala nasional.*
-*   **Advanced Analytics:** Modul *Item Analysis* real-time berbasis Laravel Livewire/Volt untuk membedah tingkat kesulitan soal secara statistik berdasarkan respons ribuan peserta.
-*   **AI-Powered Persona Generator:** Arsitektur generator testimoni berbasis *Blueprints* dan *Student Persona Factory* untuk analisis sentimen dan evaluasi pembelajaran otomatis.
-*   **Scalable Exam Sessions:** Sistem eksekusi ujian anti-lag dengan fitur *auto-save state*, timer asinkron, dan integrasi transaksi paket ujian via **Midtrans**.
-
-### 💰 5. Enterprise Finance & Accounting System
-*Platform ERP (Enterprise Resource Planning) kustom untuk manajemen finansial dan akuntansi perusahaan.*
-*   **Automated General Ledger:** Jurnal umum otomatis untuk seluruh siklus transaksi (Kas/Bank, Produksi, Pembelian, Penjualan) dengan *Chart of Accounts* (CoA) dinamis.
-*   **Asset & Production Engine:** Kalkulasi HPP (Harga Pokok Penjualan) dan algoritma *Asset Depreciation* (Penyusutan Aset) berkala.
-*   **Financial Reporting Suite:** Ekstraksi data *real-time* untuk Neraca, Laba/Rugi, Arus Kas, dan Ekuitas dalam format *spreadsheet* dan PDF resolusi tinggi.
-
-### 🗳️ 6. Smartpol — Election & Campaign Management System
-*Sistem intelijen politik dan pusat komando (Command Center) pemantauan relawan/kampanye.*
-*   **Real-time Vote Tracking:** Tabulasi perolehan suara paralel dan deteksi kecurangan (Fraud Tracking) berbasis *crowdsourcing* saksi di tingkat TPS.
-*   **Hierarchical RBAC & Geospatial Analytics:** Manajemen keanggotaan berlapis (Saksi, Timses, Koordinator) dengan dasbor analitik geografis interaktif (*Larapex Charts*) untuk pemetaan teritori kemenangan.
-
-### 🌐 7. Corporate Portals & CMS (`hexagon.co.id`)
-*Pengembangan web korporat berbasis modern stack.*
-*   **Decentralized Content Management:** Ekosistem portal berbasis **Inertia.js & Vue 3** untuk manajemen layanan, harga, portofolio, dan karir dengan dokumentasi API terstruktur (Scribe API).
-
----
-
-## 🏆 Penghargaan & Prestasi (Awards)
-
-- 🥇 **Juara 1 Pemuda Pelopor Kabupaten Ciamis (2024)** — Bidang Inovasi Teknologi (*Sistem Deteksi Dini Stunting / SIDENTING*).
-- 🏅 **Top 6 Nasional Baparekraf Digital Talent Challenge (2024)** — Kategori Inovasi Transformasi Pelayanan Publik.
-
----
-
-## 📜 Sertifikasi & Lisensi (Certifications)
-
-*   ☁️ **Amazon Web Services (AWS):** 
-    *   AWS Cloud Practitioner Essentials
-    *   Technical Architecting on AWS
-    *   Foundations of Prompt Engineering
-    *   Machine Learning Terminology and Process
-*   💻 **Dicoding Indonesia:** 
-    *   Architectural Principles of SOLID Programming
-    *   Advanced Web Application with React
-    *   Professional Foundation of Python
-
----
-
-## 🤝 Mari Berkolaborasi! (Let's Connect)
-
-Saya selalu terbuka untuk diskusi mengenai rekayasa arsitektur sistem skala besar, migrasi *cloud/microservices*, optimasi infrastruktur *backend*, atau sekadar ngopi sambil ngobrolin teknologi. 
-
-*   📧 **Email:** [sonychandmaulana@gmail.com](mailto:sonychandmaulana@gmail.com)
-*   📱 **WhatsApp / Telegram:** [+62 813-1215-7307](https://wa.me/6281312157307)
-*   🔗 **LinkedIn:** [Sony Chandra Maulana, S.Kom.](https://www.linkedin.com/in/lorddaud)
-
-<br>
+- **Email:** [sonychandmaulana@gmail.com](mailto:sonychandmaulana@gmail.com)
+- **LinkedIn:** [linkedin.com/in/lorddaud](https://www.linkedin.com/in/lorddaud)
+- **GitHub:** [github.com/SonyChand](https://github.com/SonyChand)
 
 <div align="center">
-  <i><b>"Building the backend of tomorrow, optimizing the frontend of today."</b></i>
+
+---
+
+<sub>Good software is not just code that runs. It should make someone's work easier.</sub>
+
 </div>
