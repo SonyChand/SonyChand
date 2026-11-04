@@ -136,20 +136,23 @@ Sistem penerimaan mahasiswa baru dengan kebutuhan administrasi yang lebih spesif
 
 **Kontribusi:** pengembangan dan penyempurnaan proses PMB, QA, integrasi modul, serta persiapan deployment.
 
-### 07 — Finance & Bookkeeping System
+### 07 — SIREMUN | Remuneration Management System
 
-Aplikasi pengelolaan keuangan operasional yang berfokus pada pencatatan pemasukan dan pengeluaran serta penyediaan laporan untuk pengelola.
+Aplikasi pengelolaan remunerasi pegawai yang membantu proses perhitungan insentif bulanan menjadi lebih terstruktur dan mudah ditelusuri. Fokusnya bukan sekadar menghasilkan angka pembayaran, tetapi juga memastikan komponen penilaian, aturan perhitungan, serta proses pemeriksaannya terdokumentasi dengan baik.
 
 **Fitur dan modul:**
-- **Pemasukan:** pencatatan sumber dana, nominal, tanggal, dan keterangan.
-- **Pengeluaran:** pengelompokan biaya operasional, personalia, pemeliharaan, dan kategori lain.
-- **Pembukuan:** pengorganisasian transaksi keuangan untuk kebutuhan administrasi.
-- **Pelaporan:** rekap dan penyajian data pemasukan/pengeluaran.
-- **Manajemen pengguna:** akses administrasi dan dashboard pengelola.
+- **Data pegawai & struktur penilaian:** profil pegawai, kategori kepegawaian, komponen indeks, serta pengelolaan data pendukung perhitungan.
+- **Periode remunerasi:** pembuatan periode bulanan, pengisian komponen penilaian, dan penggunaan template dari periode sebelumnya.
+- **Calculation engine:** pengolahan skor kinerja, kehadiran, hari kerja, aturan perhitungan, dan komponen insentif sesuai konfigurasi.
+- **Reward & capaian:** pencatatan target entri dan aktivitas, perhitungan tambahan poin maupun insentif, serta pemisahan komponen pembayaran.
+- **Approval workflow:** alur pengajuan, pemeriksaan, dan persetujuan remunerasi dengan akses berbeda untuk tiap peran.
+- **Employee self-service:** halaman pegawai untuk melihat ringkasan skor, komponen penilaian, serta capaian periode berjalan.
+- **Laporan & dokumen:** rekap pembayaran, rincian per pegawai, ekspor spreadsheet, serta dokumen PDF berbasis template.
+- **Administrasi & notifikasi:** konfigurasi aturan, kalender kerja, riwayat perubahan, pengelolaan data terhapus, dan notifikasi terjadwal.
 
-**Tech stack:** PHP · CodeIgniter · MySQL · JavaScript
+**Tech stack:** PHP · Laravel 13 · Livewire 3 · Volt · Tailwind CSS · Vite · Eloquent ORM · Spatie Laravel Permission · PhpSpreadsheet · mPDF
 
-**Kontribusi:** pengembangan modul transaksi, formulir, pengolahan data, dan tampilan laporan.
+**Kontribusi:** pengembangan business logic perhitungan remunerasi, alur input dan persetujuan, dashboard, laporan, serta integrasi notifikasi dan kontrol akses.
 
 ### 08 — SIDENTING | Early Stunting Detection & Growth Prediction
 
@@ -167,22 +170,24 @@ Proyek penelitian dan pengembangan aplikasi untuk membantu pemantauan pertumbuha
 
 **Kontribusi:** perancangan dan pengembangan sistem penelitian, pengolahan data, serta implementasi metode prediksi. **Hasil sistem merupakan alat bantu, bukan pengganti penilaian tenaga kesehatan.**
 
-### 09 — Multi-Step Invoice Generator | Fleetify Technical Test
+### 09 — SIJERI | Health Surveillance & Rapid Response Platform
 
-Proyek technical assessment yang berfokus pada pembuatan invoice berbasis formulir bertahap, dengan validasi perhitungan di server dan pemisahan frontend/backend.
+Sistem pencatatan dan pemantauan kasus **leptospirosis** yang dirancang untuk membantu koordinasi penanganan, pengamatan sebaran kasus, serta evaluasi tindak lanjut. Pengembangannya menggabungkan pengelolaan data kasus, informasi spasial, dan kebutuhan pelaporan dalam satu aplikasi.
 
 **Fitur dan modul:**
-- **Multi-step form:** pengisian invoice dengan pengelolaan state antar-langkah.
-- **Master item:** pilihan item dan data referensi dari backend.
-- **Server-side validation:** harga dan total dihitung ulang di backend.
-- **Transactional writes:** penyimpanan data dalam transaksi database.
-- **Print-ready invoice:** tampilan khusus untuk mencetak invoice.
-- **Async webhook:** contoh pemrosesan webhook asinkron.
-- **Containerized setup:** frontend, backend, dan database dijalankan melalui Docker Compose.
+- **Case management:** pencatatan kasus, informasi diagnosis, status penanganan, lampiran, pencarian, dan pembaruan riwayat kasus.
+- **Import & data validation:** impor data kasus melalui Excel, pratinjau baris, serta pemeriksaan data yang lengkap, parsial, atau perlu dikoreksi.
+- **Rapid response tracking:** pencatatan tindakan dan respons lapangan, dokumentasi kegiatan, serta pelacakan progres tindak lanjut.
+- **GIS & spatial mapping:** visualisasi sebaran kasus, filter wilayah, pengelompokan titik peta, dan layer mitigasi berbasis GeoJSON.
+- **Early-warning dashboard:** indikator tren kejadian, tingkat kewaspadaan, dan ringkasan statistik untuk membantu pemantauan risiko.
+- **Case evaluation:** evaluasi hasil penanganan, waktu respons, efektivitas tindakan, serta dokumentasi penutupan kasus.
+- **Reports & knowledge center:** laporan terfilter, ekspor PDF, dokumen informasi, dan aktivitas pelatihan atau peningkatan kapasitas.
+- **Security & access governance:** role-based permissions, pembatasan akses biodata pada tingkat kolom dan konteks, audit log, serta pengamanan akses dokumen.
 
-**Tech stack:** Next.js 14 · React · TypeScript · Go · Fiber · PostgreSQL · GORM · Zustand · TanStack Query · Docker
+**Tech stack:** PHP · Laravel 12 · Livewire 3 · Volt · Tailwind CSS · Bootstrap 5 · Vite · Leaflet · GeoJSON · Chart.js · Laravel Sanctum · Spatie Permission · Laravel Excel · Dompdf
 
-**Source code:** [SonyChand/fleetify-technical-test](https://github.com/SonyChand/fleetify-technical-test)
+**Kontribusi:** pengembangan modul pengelolaan kasus, dashboard analitik, pemetaan interaktif, workflow penanganan, pelaporan, serta penguatan validasi dan kebijakan akses data.
+
 
 ---
 
